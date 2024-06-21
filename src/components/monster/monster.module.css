@@ -1,0 +1,44 @@
+.monster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 24px 0
+}
+
+.monster__name {
+  font-weight: 900;
+  text-align: center;
+}
+
+.monster__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.monster__stat {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.monster__stat-value {
+  display: flex;
+  padding: 8px;
+  background-color: #a0a0a0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.monster__image{
+  display: flex;
+  justify-content: center;
+  margin: 16px 0
+
+}

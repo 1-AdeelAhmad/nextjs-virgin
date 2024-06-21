@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  margin: auto;
+  gap: 16px;
+  align-items: center;
+}
+
+.search__label {
+}
+
+.search__input {
+  padding: 8px;
+  flex-grow: 1;
+}
+
+.search__submit {
+  padding: 8px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.results__item {
+  list-style: none;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
